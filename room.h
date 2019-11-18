@@ -9,10 +9,10 @@ struct item {
 
 class Room {
  public:
-  
+  void setId(int newId);
  private:
   char name[30];
   char exits[4];
   vector<item> items;
-  
+  int id;
 };
