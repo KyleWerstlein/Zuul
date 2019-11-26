@@ -3,6 +3,10 @@
 
 using namespace std;
 
+int Room::getId() {
+  return id;
+}
+
 void Room::setId(int newId) {
   id = newId;
 }

@@ -9,6 +9,7 @@ struct item {
 
 class Room {
  public:
+  int getId();
   void setId(int newId);
   char* getDescription();
   void setDescription(char* newdesc);
