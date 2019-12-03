@@ -18,3 +18,19 @@ char* Room::getDescription() {
 void Room::setDescription(char* newdesc) {
   description = newdesc;
 }
+
+void Room::setN() {
+	n = true;
+}
+
+void Room::setE() {
+	e = true;
+}
+
+void Room::setS() {
+	s = true;
+}
+
+void Room::setW() {
+	w = true;
+}
